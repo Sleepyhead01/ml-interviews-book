@@ -36,20 +36,29 @@ i) To calculate the outer product of two vectors **a** and **b**, denoted as **a
 Given the vectors **a** = [3, 2, 1] and **b** = [-1, 0, 1], we can calculate the outer product **a^Tb** as follows:
 
 **a^Tb** = 
+
 | 3 * -1   3 * 0   3 * 1 |
+
 | 2 * -1   2 * 0   2 * 1 |
+
 | 1 * -1   1 * 0   1 * 1 |
 
 Performing the calculations, we get:
 
 **a^Tb** = 
+
 | -3   0   3 |
+
 | -2   0   2 |
+
 | -1   0   1 |
 
 So, the outer product of **a** and **b**, **a^Tb**, is the 3x3 matrix:
+
 | -3   0   3 |
+
 | -2   0   2 |
+
 | -1   0   1 |
 
 Each element in the resulting matrix is obtained by multiplying the corresponding components of **a** and **b**.
@@ -57,8 +66,11 @@ Each element in the resulting matrix is obtained by multiplying the correspondin
 ii)
 Refer:
 https://towardsdatascience.com/outer-products-a-love-letter-b29a2c2c818e
+
 https://blog.allenai.org/the-lure-of-the-outer-product-4addd2e7f95e
+
 http://mlwiki.org/index.php/Outer_Product
+
 https://www.quora.com/What-is-an-intuitive-understanding-of-the-outer-product-of-two-vectors
 
 
