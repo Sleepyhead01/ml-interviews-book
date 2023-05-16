@@ -31,35 +31,40 @@ Hence, the maximum value of **A · B** is |**A**| * |**B**|, which is obtained w
 
 5.1.1.2
 
-i) To calculate the outer product of two vectors **a** and **b**, denoted as **a^Tb**, we need to perform a matrix multiplication. The outer product produces a matrix where each element is obtained by multiplying each component of **a** by each component of **b**.
+i) To calculate the outer product of two vectors **a** and **b**, denoted as **$a^Tb$**, we need to perform a matrix multiplication. The outer product produces a matrix where each element is obtained by multiplying each component of **a** by each component of **b**.
 
-Given the vectors **a** = [3, 2, 1] and **b** = [-1, 0, 1], we can calculate the outer product **a^Tb** as follows:
+Given the vectors **a** = [3, 2, 1] and **b** = [-1, 0, 1], we can calculate the outer product **$a^Tb$** as follows:
 
-**a^Tb** = 
+$$
+a^T b = 
+\begin{bmatrix}
+ 3 * -1 & 3 * 0 & 3 * 1 \\ 
+ 2 * -1 & 2 * 0 & 2 * 1 \\
+ 1 * -1 & 1 * 0 & 1 * 1
+\end{bmatrix}
+$$
 
-| 3 * -1   3 * 0   3 * 1 |
-
-| 2 * -1   2 * 0   2 * 1 |
-
-| 1 * -1   1 * 0   1 * 1 |
 
 Performing the calculations, we get:
 
-**a^Tb** = 
+$$
+a^Tb = 
+\begin{bmatrix}
+ -3 & 0 & 3 \\ 
+ -2 & 0 & 2 \\
+ -1 & 0 & 1
+\end{bmatrix}
+$$
 
-| -3   0   3 |
+So, the outer product of **a** and **b**, **$a^Tb$**, is the 3x3 matrix:
 
-| -2   0   2 |
-
-| -1   0   1 |
-
-So, the outer product of **a** and **b**, **a^Tb**, is the 3x3 matrix:
-
-| -3   0   3 |
-
-| -2   0   2 |
-
-| -1   0   1 |
+$$
+\begin{bmatrix}
+ -3 & 0 & 3 \\ 
+ -2 & 0 & 2 \\
+ -1 & 0 & 1
+\end{bmatrix}
+$$
 
 Each element in the resulting matrix is obtained by multiplying the corresponding components of **a** and **b**.
 
